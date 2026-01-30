@@ -30,25 +30,25 @@ Este projeto foi criado com o objetivo de:
 ---
 
 ## 📂 Estrutura do Projeto
-src/
-├── index.js
-├── prompts-schema/
-│   ├── prompt-main.js
-│   └── prompt-qrcode.js
-├── services/
-│   ├── password/
-│   │   ├── utils/
-│   │   │   └── permitedCharacters.js
-│   │   ├── create.js
-│   │   └── handle.js
-│   └── qr-code/
-│       ├── create.js
-│       └── handle.js
-.env
-.gitignore
-package.json
-package-lock.json
 
+    src/
+    ├── index.js
+    ├── prompts-schema/
+    │   ├── prompt-main.js
+    │   └── prompt-qrcode.js
+    ├── services/
+    │   ├── password/
+    │   │   ├── utils/
+    │   │   │   └── permitedCharacters.js
+    │   │   ├── create.js
+    │   │   └── handle.js
+    │   └── qr-code/
+    │       ├── create.js
+    │       └── handle.js
+    .env
+    .gitignore
+    package.json
+    package-lock.json
 ---
 
 ## ⚙️ Configuração do Ambiente
